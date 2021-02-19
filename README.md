@@ -1,1 +1,3 @@
-# [Flappy Bird](https://adiletsaken.github.io/flappy-bird/)
+# Flappy Bird
+
+# [Demo](https://adiletsaken.github.io/flappy-bird/)
