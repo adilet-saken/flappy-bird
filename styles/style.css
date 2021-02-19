@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+}
+
+div {
+    position: absolute;
+    background: #000;
+    width: 80px;
+    height: 300px;
+}
+
+span {
+    position: absolute;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+#high_score {
+    left: 25px;
+}
+
+#score {
+    right: 25px;
+}
+
+.pipe {
+    background-image: url('../images/pipe.png');
+    border: 2px solid #383838;
+}
+
+.pipe-top {
+    width: 90px;
+    height: 40px;
+    background-image: url('../images/pipe.png');
+    border: 2px solid #383838;
+}
+
+#bird {
+    width: 50px;
+    height: 35px;
+    background-image: url('../images/flappy.png');
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0);
+}
