@@ -164,12 +164,14 @@ function render() {
 
         restart();
 
-        int = setInterval(doLap, refresh_rate);
+        int = undefined;
     }
 }
 
 document.addEventListener('keyup', function(e) {
-    if (e.keyCode === 32) {
+    if (e.e.keyCode === 13) {
+        int = setInterval(doLap, refresh_rate);
+    } else if (e.keyCode === 32) {
         up_counter = 15;
     }
 });
@@ -188,4 +190,4 @@ function doLap() {
 
 restart();
 
-var int = setInterval(doLap, refresh_rate);
+var int = undefined;
