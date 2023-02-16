@@ -169,7 +169,7 @@ function render() {
 }
 
 document.addEventListener('keyup', function(e) {
-    if (e.e.keyCode === 13) {
+    if (e.keyCode === 13) {
         int = setInterval(doLap, refresh_rate);
     } else if (e.keyCode === 32) {
         up_counter = 15;
