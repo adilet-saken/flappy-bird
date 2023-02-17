@@ -163,6 +163,8 @@ function render() {
         clearInterval(int);
 
         restart();
+        
+        render();
 
         int = undefined;
     }
